@@ -23,10 +23,40 @@ let obj = {
     age: 20
 }
 
-console.log(obj);
+// console.log(obj);
 
 const mainFunction = function(){
     console.log("Hello");
 }
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// The stack and heap are two different regions of memoray used programs for storing data.
+
+// Stack:
+let aStack = 'Sakifg'
+
+let bstack = aStack
+
+bstack = "dd"
+
+console.log(aStack);
+console.log(bstack);
+
+//  Heap:
+
+let hHeap = {
+    name : "Sakib",
+    age:23
+}
+
+let cHeap = hHeap
+
+cHeap.name= "Al-Amin"
+cHeap.age= 24
+
+console.log(cHeap);
+console.log(hHeap);
+
+
 
 
