@@ -54,8 +54,44 @@ let cHeap = hHeap
 cHeap.name= "Al-Amin"
 cHeap.age= 24
 
-console.log(cHeap);
-console.log(hHeap);
+// console.log(cHeap);
+// console.log(hHeap);
+
+
+// Practic
+// 
+// Stack
+
+let planA = "Room"
+let planB = 12
+planC = planB
+// planD = planB
+// planD = planC
+planC = 23
+
+// console.log(planB);
+
+// Heap
+let arrOne = ['Sakib', 'Hridoy', 13]
+
+let arrTwo = arrOne
+
+ arrTwo = ['Shuvo', 'Fahim', 'Tanim', 24]
+
+let goX = {
+    name: "Al-Amin",
+    age: 220
+}
+
+goZ = goX
+
+goZ.name = 'Nahihan'
+goZ.age = 25
+
+console.table(arrTwo);
+console.table(goZ);
+
+
 
 
 
